@@ -12,7 +12,7 @@ def rotation(List1,List2):# evry Nummber are same
             break
     return True
 
-def rotation2(List1,List2):#[a,b,c,d,e,f][e,f,a,b,c,d] that have to be same Number with same potition
+def rotation2(List1,List2):#[a,b,c,d,e,f][e,f,a,b,c,d]Every Number in List have same value with same position
     if len(List1)!=len(List2):
         return False
     FiresElem=List1[0]
@@ -31,4 +31,4 @@ def rotation2(List1,List2):#[a,b,c,d,e,f][e,f,a,b,c,d] that have to be same Numb
 
 
 #print(rotation([1,2,3,4],[3,2,1,4,6]))
-print(rotation2([1,2,3,4,5],[5,4,1,2,3]))
+print(rotation([1,2,3,4,5],[5,4,1,2,3]))
